@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>251003</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search product name here...">
+            <button id="search">Search</button>
+        </div>
+    </div>
+    <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Topwear')">Topwear</button>
+        <button class="button-value" onclick="filterProduct('Bottomwear')">Bottomwear</button>
+
+        <button class="button-value" onclick="filterProduct('Jacket')">Jacket</button>
+        <button class="button-value" onclick="filterProduct('Watch')">Watch</button>
+    </div>
+    <div id="products"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
